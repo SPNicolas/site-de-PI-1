@@ -100,7 +100,7 @@ body {
   .relógio img{
     height:550px; 
     width:600px; 
-    margin-top: -650px;
+    margin-top: -700px;
     margin-left: 55%;
   }
 
@@ -118,28 +118,8 @@ body {
     background-color: black;
   }
 
-  .button {
-    border: none;
-    color: #ba5b20;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    margin-top: -250px;
-    margin-left: 100px;
-  }
-  
-  .button1 {
-    background-color: #ffffff;
-    color: black;
-    border: 2px solid #ba5b20;
-  }
-  
-  .button1:hover {
-    background-color:#ba5b20;
-    color: rgb(255, 255, 255);
+  a{
+    background-color: #ba5b20;
+    margin-top: -400px;
+    margin-left: 140px;
   }
