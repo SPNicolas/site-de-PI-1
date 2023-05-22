@@ -15,12 +15,8 @@ body {
 }
 
   .quadrado-branco{
-    background-color: white;
-    margin-top: 100px;
-    margin-bottom: 150px;
-    margin-right: 200px;
-    margin-left: 150px;
-    padding: 12px;
+    background-color: white;  
+    padding:35vh;
   }
   p {
     margin-top: 100px;
@@ -78,7 +74,7 @@ body {
 
   header{
     position: relative;
-    background-color: rgb(186, 91, 32);
+    background-color: #ba5b20;
     height: 100px;
     grid-column-start: 1;
     grid-column-end: 3;
@@ -104,7 +100,7 @@ body {
   .relógio img{
     height:550px; 
     width:600px; 
-    margin-top: -430px;
+    margin-top: -650px;
     margin-left: 55%;
   }
 
@@ -116,4 +112,34 @@ body {
 
   p{
     font-size: 1.8em;
+  }
+
+  #fontepreta{
+    background-color: black;
+  }
+
+  .button {
+    border: none;
+    color: #ba5b20;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: -250px;
+    margin-left: 100px;
+  }
+  
+  .button1 {
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid #ba5b20;
+  }
+  
+  .button1:hover {
+    background-color:#ba5b20;
+    color: rgb(255, 255, 255);
   }
