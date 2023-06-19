@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+html {
+  overflow-x: hidden;
+}
+
 p {
   color: #fff;
 
