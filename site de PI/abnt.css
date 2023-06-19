@@ -5,3 +5,17 @@
     font-size: 12pt;
     font-family: Arial
 }
+
+.abnt p {
+    margin-left: 3cm;
+    margin-right: 2cm;
+    display: block;
+    text-indent: 2cm;
+}
+.abnt h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    margin-left: 3cm;
+    margin-right: 2cm;
+    
+}
