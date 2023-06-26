@@ -14,7 +14,7 @@ h2 {
 }
 
 body {
-  background-color: #000000;
+    background: linear-gradient(to right,black,#1c1c1c, #353434, gray);
 
 }
 
@@ -59,7 +59,7 @@ aside {
 }
 
 #barra-menu {
-  background-color: rgb(186, 91, 32);
+  background-color: #a75624;
   height: 100vh;
   width: 180px;
   transition: 0.3s all;
@@ -77,17 +77,23 @@ aside {
 
 h1 {
   position: absolute;
-  top: 13%;
+  top:0%;
   transform: translate(0, -50%);
-  left: 40%;
+  left: 1%;
+  text-decoration: underline;
 }
 
 header {
   position: relative;
-  background-color: #ba5b20;
+  background-color: #a75624;
   height: 100px;
   grid-column-start: 1;
   grid-column-end: 3;
+
+}
+p header {
+  margin-top: 100px;
+  margin-left: 100px;
 }
 
 main {
@@ -110,7 +116,7 @@ footer {
 .relógio img {
   height: 650px;
   width: 700px;
-  margin-top: -700px;
+  margin-top: -600px;
   margin-left: 55%;
 }
 
@@ -161,7 +167,7 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: linear-gradient(to right, #ba5b20 0%, #ba5b15 100%);
+  background-image: linear-gradient(to right, #a75624 0%, #a75624 100%);
   transition: .5s ease;
   display: block;
   z-index: -1;
@@ -172,11 +178,11 @@ p {
 }
 
 .btn:hover {
-  box-shadow: 6px 6px 12px #ba5b20, -6px -6px 12px #ba5b20;
+  box-shadow: 6px 6px 12px #a75624, -6px -6px 12px#a75624;
 }
 
 img{
   height: 200px;
 }
 
-.recuo { text-indent:4em }
+.recuo div { text-indent:4em }
