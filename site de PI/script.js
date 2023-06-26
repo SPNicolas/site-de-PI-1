@@ -1,9 +1,7 @@
-function abrirMenu() {
-   let barraMenuAberto = document.getElementById('barra-menu');
+const menuToggle = document.querySelector('.menu-toggle');
+const menu = document.querySelector('.menu');
 
-   if (barraMenuAberto.style.width == "0px") {
-      barraMenuAberto.style.width = "180px";
-   } else {
-      barraMenuAberto.style.width = "0px";
-   }
-}
+menuToggle.addEventListener('click', function() {
+  menuToggle.classList.toggle('menu-open');
+  menu.classList.toggle('menu-open');
+});
