@@ -12,7 +12,10 @@ p {
 h2 {
   color: #fff;
 }
-
+.titulo1 {
+  color: #000;
+  font-size: 150px;
+}
 body {
     background: linear-gradient(to right,black,#1c1c1c, #353434, gray);
 
@@ -275,5 +278,17 @@ nav {
     width: 200px;
     height: 150px;
   }
+  
+}
+
+
+div {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.pagina1 {
+
   
 }
