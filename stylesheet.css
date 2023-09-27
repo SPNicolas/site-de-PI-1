@@ -23,7 +23,7 @@ body {
 
 .quadrado-branco {
   background-color: white;
-  padding: 16vh;
+
 }
 
 .preto {
@@ -267,7 +267,7 @@ nav {
   }
 
   p {
-    font-size: small;
+    font-size: medium;
   }
 
   img {
@@ -279,6 +279,13 @@ nav {
     height: 150px;
   }
   
+  a {
+    font-size: medium;
+  }
+
+  .titulo1{
+    font-size: xx-large;
+  }
 }
 
 
@@ -288,3 +295,6 @@ div {
   text-align: center;
 }
 
+.texto {
+  color: #000;
+}
