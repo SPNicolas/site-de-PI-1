@@ -12,9 +12,9 @@ p {
 h2, h1 {
   color: #fff;
 }
-.titulo1 {
-  color: #000;
-  font-size: 150px;
+
+h1 {
+  color: white
 }
 body {
     background: linear-gradient(to right,black,#1c1c1c, #353434, gray);
@@ -136,7 +136,7 @@ p {
   top: 0;
   left: 0;
   background-image: linear-gradient(to right, #a75624 0%, #a75624 100%);
-  transition: .5s ease;
+  transition:©  .5s ease;
   display: block;
   z-index: -1;
 }
@@ -211,7 +211,7 @@ nav {
   background-color: #555;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 500px){
   .logo {
     display: none;
   }
@@ -268,7 +268,7 @@ nav {
   }
 
   p {
-    font-size: medium;
+    font-size: 20px;
     text-align: center;
   }
 
@@ -287,7 +287,18 @@ nav {
 
   .titulo1{
     font-size: xx-large;
+  }  
+}
+
+@media(max-width: 500px) and (min-width: 350px){
+
+  p {
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
   }
+
+
 }
 
 
@@ -299,4 +310,7 @@ div {
 
 .texto {
   color: #000;
+}
+.text-info {
+  color: #fff;
 }
