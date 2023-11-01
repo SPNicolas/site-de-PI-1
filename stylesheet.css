@@ -9,9 +9,7 @@ p {
 
 }
 
-h2, h1 {
-  color: #fff;
-}
+
 
 h1 {
   color: white
@@ -276,10 +274,7 @@ nav {
     width: 150px;
   }
 
-  .relógio img {
-    width: 200px;
-    height: 150px;
-  }
+ 
   
   a {
     font-size: medium;
@@ -367,5 +362,9 @@ div {
   color: #000;
 }
 .text-info {
+  color: #fff;
+}
+
+li {
   color: #fff;
 }
